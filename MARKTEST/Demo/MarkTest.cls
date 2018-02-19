@@ -1,5 +1,6 @@
 Class Demo.MarkTest
 {
 	Property name as %String;
-	/// A Comment 
+	///A Comment 
+	Property Balance as %Numeric;
 }
