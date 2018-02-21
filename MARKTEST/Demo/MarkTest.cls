@@ -6,6 +6,7 @@ Class Demo.MarkTest
 	
 	method HelloWorld() as %String
 	{
-	quit "hello World"
+	set a="Hello World"
+	quit a
 	}
 }
