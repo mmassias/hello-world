@@ -5,6 +5,14 @@ Property Name as %String;
 
 Property Number as %Numeric;
 
+Property newproperty as %Date;
+
+Method Test() as %Status
+{
+quit $$$OK
+
+} 
+
 Storage Default
 {
 <Data name="TestDefaultData">
@@ -16,6 +24,9 @@ Storage Default
 </Value>
 <Value name="3">
 <Value>Number</Value>
+</Value>
+<Value name="4">
+<Value>newproperty</Value>
 </Value>
 </Data>
 <DataLocation>^Demo.Loan.TestD</DataLocation>
