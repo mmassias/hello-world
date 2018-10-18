@@ -3,7 +3,7 @@
 /// sometimes it responds quickly, other times not.
 Class Demo.Loan.BankEven Extends Ens.BusinessProcessBPL [ ClassType = persistent, ProcedureBlock ]
 {
-
+/// My comment
 XData BPL [ XMLNamespace = "http://www.intersystems.com/bpl" ]
 {
 <process language='objectscript' request='Demo.Loan.Msg.Application' response='Demo.Loan.Msg.Approval' height='2000' width='2000' >
