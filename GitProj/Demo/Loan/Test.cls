@@ -7,9 +7,11 @@ Property Number as %Numeric;
 
 Property newproperty as %Date;
 
-Method Test() as %Status
+classMethod Test(hw as %String= "") as %Status
 {
-quit $$$OK
+	read "hw: ",hw
+	write hw
+	quit $$$OK
 
 } 
 

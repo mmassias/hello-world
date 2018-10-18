@@ -3,7 +3,7 @@
 /// sometimes it responds quickly, other times not.
 Class Demo.Loan.BankManana Extends Ens.BusinessProcessBPL [ ClassType = persistent, ProcedureBlock ]
 {
-
+/// My new Comment
 /// 2 modes: Queue, InProc
 Parameter INVOCATION = "Queue";
 
