@@ -7,13 +7,16 @@ Property Number as %Numeric;
 
 Property newproperty as %Date;
 
-classMethod Test(hw as %String= "") as %Status
+classMethod Test(hw as %String= "Hello World") as %Status
 {
-	read "hw: ",hw
+ write "hello"
+
 	write hw
 	quit $$$OK
 
 } 
+
+
 
 Storage Default
 {
