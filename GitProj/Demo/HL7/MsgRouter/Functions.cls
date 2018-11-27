@@ -2,11 +2,7 @@
 Class Demo.HL7.MsgRouter.Functions Extends Ens.Rule.FunctionSet [ ClassType = "", ProcedureBlock ]
 {
 
-ClassMethod Test(test As %String = "") As %Status
-{
-	write test_"Mark"
-	quit $$$OK
-}
+
 
 /// Returns the ordinal position of the day in the week, 
 /// where 1 is Sunday, 2 is Monday, and so on.
