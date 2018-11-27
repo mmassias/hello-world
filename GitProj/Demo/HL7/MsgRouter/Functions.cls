@@ -8,6 +8,7 @@ Class Demo.HL7.MsgRouter.Functions Extends Ens.Rule.FunctionSet [ ClassType = ""
 /// where 1 is Sunday, 2 is Monday, and so on.
 ClassMethod DayOfWeek() As %Integer [ CodeMode = expression, Final ]
 {
+
 $zd($H,10)
 }
 
