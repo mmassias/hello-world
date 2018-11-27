@@ -4,7 +4,7 @@ Class Demo.HL7.MsgRouter.Functions Extends Ens.Rule.FunctionSet [ ClassType = ""
 
 ClassMethod Test(test As %String = "") As %Status
 {
-	write test
+	write test_"Mark"
 	quit $$$OK
 }
 
